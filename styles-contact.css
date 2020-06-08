@@ -1,0 +1,150 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/coffee-bg.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;  
+	
+	
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+	text-align: center;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Barlow', sans-serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: black;
+}
+
+h2 {
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: black;
+}
+*{
+	margin:0;
+	padding: 50px;
+}
+nav{ 
+	font-family:'Barlow', sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 20px;
+}
+nav li{
+	display: inline;
+	margin-right: 10px;
+	border-right: 1px solid black;
+	padding: 0 10px; 
+}
+nav li:last-child { 
+	border-right: none;
+}
+nav a{ 
+	text-decoration: none;
+	color: goldenrod;
+	font: 20px/1 Barlow;
+	text-transform: uppercase;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease; 
+	-ms-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+a{
+	color: #444;
+	text-decoration: none; 
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+}
+a active{
+	font-weight: bold;
+	color: #333;
+}
+
